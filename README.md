@@ -1,8 +1,13 @@
 # CI2024_lab2
 Travelling salesman problem
 
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| Typology_method  | Initial_cost |  Cost_after_mutation | Typology algorithm  | Steps |
+|----------|----------|----------|----------|----------|
+| roulette_wheel - swap_mutation | 4436.031770 | 4431.363768 | Greedy algorithm | 1_000_000 |
+| roulette_wheel - insert_mutation | 4436.031770 | 4436.031770 | Greedy algorithm | 1_000_000 |
+| tourment_selection - swap_mutation | 4436.031770 | 4436.031770 | Greedy algorithm | 1_000_000 |
+| tourment selection - insert_mutation | 4436.031770 |4436.031770 | Greedy algorithm | 1_000_000 |
+| Tourment Selection - swap_mutation - insert_mutation - inner_over | 4436.031770 | 4436.031770 | Greedy algorithm | 5_000_000 |
+| Tourment Selection - swap_mutation - insert_mutation - inner_over | 4898.633717 | 4898.633717 | Similar Greedy algorithm | 5_000_000 |
+| Tourment Selection - swap_mutation - insert_mutation - inner_over | 17985.344514 | 15277.778943 | Mean Distance algorithm | 5_000_000 |
+
